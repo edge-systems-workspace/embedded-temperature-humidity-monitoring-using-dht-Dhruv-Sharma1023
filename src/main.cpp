@@ -23,7 +23,7 @@ void setup() {
     // Initialize the DHT sensor
     dht.begin();
 
-    // TODO 6:
+    // Print system initialization messages
     // Print a system initialization message
     Serial.println("DHT11 Temperature and Humidity Monitoring System");
     Serial.println("Initializing...");
