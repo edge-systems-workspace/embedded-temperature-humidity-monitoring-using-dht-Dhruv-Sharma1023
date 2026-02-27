@@ -19,7 +19,7 @@ void setup() {
     // Initialize Serial communication (9600 baud rate)
     Serial.begin(9600);
 
-    // TODO 5:
+    // Initialize the DHT sensor driver
     // Initialize the DHT sensor
     dht.begin();
 
