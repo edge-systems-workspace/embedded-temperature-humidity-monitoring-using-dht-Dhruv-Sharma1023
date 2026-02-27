@@ -57,5 +57,6 @@ void loop() {
 
     // Pause 2 seconds between readings
     // Add a 2-second delay before next reading
+
     delay(2000);
 }
