@@ -35,7 +35,7 @@ void loop() {
     // Read humidity value from sensor
     float humidity = dht.readHumidity();
 
-    // TODO 8:
+    // Read temperature (Celsius) from DHT sensor
     // Read temperature value from sensor
     float temperature = dht.readTemperature();
 
