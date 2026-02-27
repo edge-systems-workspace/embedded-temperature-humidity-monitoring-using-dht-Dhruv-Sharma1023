@@ -39,7 +39,7 @@ void loop() {
     // Read temperature value from sensor
     float temperature = dht.readTemperature();
 
-    // TODO 9:
+    // Validate sensor readings; handle read failures
     // Check if either reading failed using isnan()
     // If failed, print error message and return
     if (isnan(humidity) || isnan(temperature)) {
