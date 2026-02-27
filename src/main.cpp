@@ -31,7 +31,7 @@ void setup() {
 
 void loop() {
 
-    // TODO 7:
+    // Read humidity from DHT sensor
     // Read humidity value from sensor
     float humidity = dht.readHumidity();
 
