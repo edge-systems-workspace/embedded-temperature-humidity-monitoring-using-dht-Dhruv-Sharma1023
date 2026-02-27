@@ -15,7 +15,7 @@ DHT dht(DHTPIN, DHTTYPE);
 
 void setup() {
 
-    // TODO 4:
+    // Initialize Serial at 9600 baud
     // Initialize Serial communication (9600 baud rate)
     Serial.begin(9600);
 
